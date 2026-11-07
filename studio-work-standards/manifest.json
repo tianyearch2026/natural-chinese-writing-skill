@@ -1,0 +1,11 @@
+{
+  "release": "colleague_v01_20261107",
+  "base_release": "v01_20261107",
+  "language_version": "v02",
+  "files": {
+    "SKILL.md": "e7c15acd13cebe897a88fc4b34a105ad8410182146ef983826bcf28283db2b62",
+    "references/language_standard.md": "e20e58ea8d1b741c11bafa4f125e7185c378bf8b24d6a236aea6525cf2ae036d",
+    "references/work_standard.md": "016b77d79e46c8b156a9d09f9291e3a220e43244bbd3486f7e6e81217a17fad5",
+    "references/weekly_review.md": "45b8123a991edcce60e421b94ea919ee880b559e9fc98004dad4b14ab8cfd61a"
+  }
+}
