@@ -1,8 +1,8 @@
 # 田野建筑工作助手 | TIANYE Architecture Skill
 
-面向田野建筑团队的通用引导式 AI 工作 Skill，兼容可读取 `SKILL.md` 的 Agent Skills 工具，主要用于 ZCode、WorkBuddy。版本 **v1.1.0**。
+面向田野建筑团队的通用引导式 AI 工作 Skill，兼容可读取 `SKILL.md` 的 Agent Skills 工具，主要用于 ZCode、WorkBuddy。版本 **v1.2.0**。
 
-> **仅限田野建筑内部使用。请保持仓库为 Private。** 本仓库不包含实际客户合同和敏感项目资料；不要提交实际项目价格、联系人、合同或图纸。
+> 本技能公开分享工作方法及品牌模板。田野标志、抬头纸、联系方式和二维码供田野团队及获授权人员使用；其他机构请换用自己的品牌素材。实际客户合同、价格、个人联系资料和图纸保存在各自授权的项目目录。详见 [使用声明](LICENSE_INTERNAL.md)。
 
 ## 安装
 
@@ -29,3 +29,12 @@
 内部更新请通过 Pull Request 审核，更新 `CHANGELOG.md` 并重新运行 `tests/` 的典型案例。关键合同、结构消防、幕墙和法规判断仍需专业负责人复核。
 
 [变更记录](CHANGELOG.md) · [内部使用声明](LICENSE_INTERNAL.md)
+
+
+## v1.2 Word 抬头纸与字体
+随包包含 [Word 抬头纸](assets/tianye_letterhead_v03.docx)、单页联系函及两页踏勘报告示范。规范见 [正式文书](references/word_letterhead.md)，Windows 字体检查与缺字部署见 [字体设置](references/font_setup.md)。生成文件前运行字体检查，生成后更新页码并检查PDF和逐页图像。
+
+技能ZIP包含完整目录及工具。字体来自小米官网，不附带字体文件。首次下载和安装须由使用者确认许可；已安装时直接复用。脚本运行、Word生成与客户端自动触发均取决于实际工具环境，单纯导入ZIP不代表这些环节已验证。当前本机通过WPS验证，微软Word、WorkBuddy和ZCode的实际自动触发另行核验。
+
+## 完整安装包
+[下载田野建筑工作助手 v1.2.0](../tianye_architecture_v1_2_0_20261108.zip)

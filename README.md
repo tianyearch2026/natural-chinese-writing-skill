@@ -10,4 +10,6 @@ WorkBuddy 和 ZCode 的实际安装及自动触发尚待在对应设备验证。
 
 ## 田野建筑工作助手
 
-[tianye-architecture](tianye-architecture/) 为独立的建筑专业工作技能 v1.1.0，包含专业模块、模板与测试。原始内部使用声明一并保留，使用时请阅读该声明。
+[tianye-architecture](tianye-architecture/) 为独立的建筑专业工作技能 v1.2.0，包含专业模块、模板与测试。含Word品牌抬头纸、使用规范及字体检查部署工具。品牌抬头供田野团队及获授权人员使用，详见技能使用声明。
+
+[下载田野建筑工作助手 v1.2.0 完整安装包](tianye_architecture_v1_2_0_20261108.zip) · [抬头纸与正式文书规范](tianye-architecture/references/word_letterhead.md)

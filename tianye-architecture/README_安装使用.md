@@ -1,7 +1,7 @@
-# 田野建筑通用 Skill v1.1.0｜团队安装与使用
+# 田野建筑通用 Skill v1.2.0｜团队安装与使用
 
 ## 一句话说明
-这是给田野建筑同事用的通用专业工作方法包：**一个 Skill、六个专业模块、无需 API Key、不带可执行脚本**。不同模型写作能力仍会不同，Skill 能统一工作要求但不能保证不同工具输出完全相同。
+这是给田野建筑同事用的通用专业工作方法包：**一个 Skill、六个专业模块、Word抬头纸及本地检查生成工具**。不同模型写作能力仍会不同，Skill 能统一工作要求但不能保证不同工具输出完全相同。
 
 ## 先检查压缩包
 解压后应出现 `tianye-architecture/` 文件夹，内部**直接有** `SKILL.md`，并包含 `references/`、`templates/`、`tests/`。不要把 `SKILL.md` 单独拎出来安装，否则专业模块会丢失。
@@ -69,3 +69,11 @@ Skill 应先用通俗、专业的方式问**1–3 个关键问题**，让你说�
 
 ## 版本与内部分享
 版本 `1.1.0`，面向田野建筑内部使用。不要未经事务所同意公开发布、上传真实客户材料或向外部服务商复制敏感信息。更新时统一替换文件夹，保持同事版本一致；每次改规则前先检查 3 个典型测试题是否退化。
+
+
+## v1.2 本地文件工具
+请完整保留 assets、scripts、references 和 templates 目录。Windows字体只读检查为 `scripts/font_preflight.ps1 -Mode Check`；字体已齐时不安装。缺失时先阅读 `references/font_setup.md`，在接受小米许可后使用Ensure模式部署。
+
+Python工具需要Python3、python-docx、lxml；PDF检查另需pdfplumber。宿主如有配套运行库，优先使用宿主运行库；缺组件时先明确缺口。Word/WPS生成验证需要本机可用的兼容Office接口。脚本能否运行及目录访问范围，以当前客户端权限为准。导入包、文件写出、字体安装、自动触发和最终渲染分别核验。
+
+制作文件使用 templates/document_input.example.json 为输入示范，执行 `scripts/build_word.py --input <正文JSON> --output <新版本.docx>`；再执行 `scripts/render_word.ps1 -InputPath <新版本.docx> -OutputDirectory <空检查目录>`，对检查副本和PDF使用verify_document.py并逐页看图。工具不会覆盖已存在的输出文件。

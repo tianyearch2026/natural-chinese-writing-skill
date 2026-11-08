@@ -1,0 +1,9 @@
+{
+  "family": "MiSans",
+  "required_weights": ["Regular", "Bold"],
+  "official_page": "https://hyperos.mi.com/font/zh/download/",
+  "license_url": "https://hyperos.mi.com/font-download/MiSans字体知识产权许可协议.pdf",
+  "package_url": "https://hyperos.mi.com/font-download/MiSans.zip",
+  "verified_date": "2026-11-08",
+  "redistribute_font_files": false
+}
